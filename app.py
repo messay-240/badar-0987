@@ -99,7 +99,7 @@ col4.metric("Daily Grid Import (Night)", f"{sum(units_bought):.1f} Units")
 st.divider()
 
 # --- SEPARATE GRAPH TABS (As Requested: Clean Line Charts) ---
-st.subheader("📊 Analytical Analytics Dashboard")
+st.subheader("📊 Energy Analysis Dashboard")
 tab1, tab2, tab3 = st.tabs(["🕒 24-Hour Detailed Flow", "📅 Weekly Energy View", "🗓️ Monthly Projection"])
 
 with tab1:
